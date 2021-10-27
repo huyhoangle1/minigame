@@ -7,7 +7,7 @@ app.set("views","./views");
 var Server = require("http").Server(app);
 var io=require("Socket.io")(Server);
 Server.listen(process.env.PORT || 3000);
-var mang=[]
+var mang=[];
 
 io.on("connection",(Socket)=>{
     console.log("Có người kết nối :" + Socket.id);
