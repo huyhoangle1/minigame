@@ -1,0 +1,19 @@
+wrapper{
+    width: 400px;
+    margin: auto;
+}
+#information{
+    border: 1ps solid gray;
+    margin: 10px;
+}
+#txtHoten, #txtEmail, #txtSdt{
+
+}
+#listUsers{
+    text-align: center;
+}
+.hocvien{
+    border-bottom: solid 1px pink;
+    padding: 10px;
+}
+.hang1 span{color: royalblue;font-weight: bold;}
