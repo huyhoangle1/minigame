@@ -1,10 +1,10 @@
 var socket = io("https://information-member.herokuapp.com")
 socket.on('server-gui-ds',(data)=>{
     $('#ds').html("")
-    data.map((hocvien)=>{
+    data.map((hocvien,index)=>{
         $('#ds').append(`
         <div class="hocvien">
-        <div  class="hang1">id : 1 || <span>`  +hocvien.HOTEN+ `</span></div>
+        <div  class="hang1">id : `+ index +` || <span>`  +hocvien.HOTEN+ `</span></div>
         <div class="hang2"> `+hocvien.EMAIL+`  - `+ hocvien.SODT+`</div>
 
     </div>
