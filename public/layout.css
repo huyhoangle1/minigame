@@ -7,7 +7,7 @@ wrapper{
     margin: 10px;
 }
 #txtHoten, #txtEmail, #txtSdt{
-
+        font-family: 'Courier New', Courier, monospace;
 }
 #listUsers{
     text-align: center;

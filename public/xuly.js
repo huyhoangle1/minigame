@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000/")
+var socket = io("https://git.heroku.com/information-member.git")
 socket.on('server-gui-ds',(data)=>{
     $('#ds').html("")
     data.map((hocvien)=>{
